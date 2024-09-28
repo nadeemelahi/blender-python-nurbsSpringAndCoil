@@ -14,6 +14,7 @@ from math import radians
 from math import sin
 from math import cos
 
+windingCnt = 5
 depth = 0.1 
 zlocInc = 0.001
 angleInc = 10
@@ -116,7 +117,7 @@ bpy.ops.curve.de_select_last()
 zloc = zlocInc
 angle = angleInc
 
-windingCnt = 5
+
 lim = windingCnt * 360 / angle 
 
 idx = 1
